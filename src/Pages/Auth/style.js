@@ -4,6 +4,8 @@ import { Formik } from 'formik';
 export const AuthPage = styled.div`
   display: flex;
   justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 `;
 
 export const AuthFormWrapper = styled(Formik)``;
